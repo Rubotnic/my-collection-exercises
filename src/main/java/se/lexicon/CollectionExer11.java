@@ -16,8 +16,10 @@ public class CollectionExer11 {
         idBrand.put(3, "Polestar");
         idBrand.put(4, "Nilsson");
 
+        System.out.println("Exer11: ");
+
         for (Map.Entry m : idBrand.entrySet()) {
-            System.out.println("Exer11, Key:" + m.getValue());
+            System.out.println("Value:" + m.getValue());
         }
     }
 }

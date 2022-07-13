@@ -18,7 +18,7 @@ public class CollectionExer12 {
         carInfo.put(volvo.getId(), volvo);
         carInfo.put(saab.getId(), saab);
 
-        System.out.println(carInfo);
+//        System.out.println("Exer12: " + carInfo);
 
         System.out.println("Exer12: " + volvo.getBrand() + " & " + saab.getBrand());
     }
