@@ -1,4 +1,4 @@
-package se.lexicon;
+package se.lexicon.CollectionExer12;
 // Class to exer12.
 public class Car {
 

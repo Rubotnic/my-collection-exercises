@@ -1,6 +1,9 @@
 package se.lexicon;
 
 
+import se.lexicon.CollectionChallenger3.CollectionChallenger3;
+import se.lexicon.CollectionExer12.CollectionExer12;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -41,13 +44,17 @@ public class Main {
         CollectionExer12 ex12 = new CollectionExer12();
         ex12.exerTwelfth();
 
-//        CollectionChallenger1.challOne();
-//
-//        CollectionChallenger2.challTwo();
-//
-//        CollectionChallenger3.challThird();
-//
-//        CollectionChallenger4.challFourth();
+        CollectionChallenger1 exEx1 = new CollectionChallenger1();
+        exEx1.removeDays();
+
+        CollectionChallenger2 exEX2 = new CollectionChallenger2();
+        exEX2.populateKey();
+
+        CollectionChallenger3 exEx3 = new CollectionChallenger3();
+        exEx3.allSuperHeros();
+
+        CollectionChallenger4 exEx4 = new CollectionChallenger4();
+        exEx4.numbersArray();
 
     }
 }

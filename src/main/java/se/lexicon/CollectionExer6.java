@@ -9,6 +9,8 @@ public class CollectionExer6 {
 
     public void exerSixth() {
 
+        System.out.println("Exer6: ");
+
         HashSet<String> listOfWeekdays = new HashSet<>();
 
         listOfWeekdays.add("Monday");
@@ -19,10 +21,10 @@ public class CollectionExer6 {
         listOfWeekdays.add("Saturday");
         listOfWeekdays.add("Sunday");
 
-        System.out.println("Exer6, HashSet: " + listOfWeekdays);
+        System.out.println("HashSet: " + listOfWeekdays);
 
 
         ArrayList<String> listArrWeekday = new ArrayList<>(listOfWeekdays);
-        System.out.println("Exer6, ArrayList: " + listArrWeekday);
+        System.out.println("ArrayList: " + listArrWeekday);
     }
 }

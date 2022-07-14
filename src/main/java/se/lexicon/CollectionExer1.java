@@ -17,6 +17,6 @@ public class CollectionExer1 {
         listOfWeekdays.add("Saturday");
         listOfWeekdays.add("Sunday");
 
-        System.out.println("Exer 1: " + listOfWeekdays);
+        System.out.println("Exer1: " + listOfWeekdays);
     }
 }
