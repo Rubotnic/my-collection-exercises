@@ -10,8 +10,8 @@ public class CollectionExer12 {
 
     public void exerTwelfth(){
 
-        Car saab = new Car(1, "Saab", "Super model"); //object
-        Car volvo = new Car(2, "Volvo", "Student model"); //object
+        Car saab = new Car(1, "Saab", "Super model");
+        Car volvo = new Car(2, "Volvo", "Student model");
 
         HashMap<Integer, Car> carInfo = new HashMap<>();
 
