@@ -17,7 +17,6 @@ public void exerThird() {
     newListOfWeekdays.add(3,"Friday ");
     newListOfWeekdays.add(4,"Saturday ");
     newListOfWeekdays.add(5,"Sunday ");
-    System.out.println(newListOfWeekdays);
 
     newListOfWeekdays.add("Thursday");
     System.out.println("Exer3: " + newListOfWeekdays);

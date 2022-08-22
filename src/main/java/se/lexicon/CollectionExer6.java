@@ -21,9 +21,6 @@ public class CollectionExer6 {
         listOfWeekdays.add("Saturday");
         listOfWeekdays.add("Sunday");
 
-        System.out.println("HashSet: " + listOfWeekdays);
-
-
         ArrayList<String> listArrWeekday = new ArrayList<>(listOfWeekdays);
         System.out.println("ArrayList: " + listArrWeekday);
     }

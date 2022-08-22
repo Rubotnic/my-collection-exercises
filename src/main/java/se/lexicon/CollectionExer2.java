@@ -9,20 +9,18 @@ public class CollectionExer2 {
 
     public void exerTwo() {
 
-        ArrayList<String> newListOfWeekdays = new ArrayList<>();
+        ArrayList<String> listOfWeekdays = new ArrayList<>();
 
-        newListOfWeekdays.add("Monday ");
-        newListOfWeekdays.add("Tuesday ");
-        newListOfWeekdays.add("Wednesday ");
-        newListOfWeekdays.add("Thursday ");
-        newListOfWeekdays.add("Friday ");
-        newListOfWeekdays.add("Saturday ");
-        newListOfWeekdays.add("Sunday ");
-
+        listOfWeekdays.add("Monday ");
+        listOfWeekdays.add("Tuesday ");
+        listOfWeekdays.add("Wednesday ");
+        listOfWeekdays.add("Thursday ");
+        listOfWeekdays.add("Friday ");
+        listOfWeekdays.add("Saturday ");
+        listOfWeekdays.add("Sunday ");
         System.out.println("Exer2:");
 
-        Iterator<String> days = newListOfWeekdays.iterator();
-
+        Iterator<String> days = listOfWeekdays.iterator();
         while (days.hasNext())
         {
             System.out.println(days.next());

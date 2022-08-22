@@ -17,8 +17,6 @@ public class CollectionExer4 {
         listOfWeekdays.add("Saturday");
         listOfWeekdays.add("Sunday");
 
-        System.out.println(listOfWeekdays);
-
         System.out.println("Exer4: " + listOfWeekdays.subList(0, 3));
     }
 }
